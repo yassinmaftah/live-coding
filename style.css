@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cards{
+    height: 800px;
+    width: 80%;
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.left{
+    background-color: rgb(233, 233, 233);
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    padding: 20px;
+    
+}
+
+
+.one{
+
+    background-color: hsl(263, 55%, 52%);
+    height: 45%;
+    width: 60%;
+    border-radius: 20px;
+
+}
+
+.prf-name{
+    display: flex;
+    gap: 10px;
+}
+
+.prf-name img{
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.prf-name div{
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.name-job p{
+    font-size: 23px;
+}
+
+
+.titel{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.para{
+    font-size: 13px;
+    padding: 20px;
+}
+
+
+
+.two{
+
+    background-color: hsl(217, 19%, 35%);
+    height: 45%;
+    width: 35%;
+    border-radius: 20px;
+}
+
+.three{
+
+    background-color: rgb(255, 255, 255);
+    height: 45%;
+    width: 35%;
+    border-radius: 20px;
+    
+}
+
+.four{
+
+    background-color: hsl(219, 29%, 14%);
+    height: 45%;
+    width: 60%;
+    border-radius: 20px;
+    
+}
+
+
+
+
+.right{
+    background-color: hotpink;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+}
